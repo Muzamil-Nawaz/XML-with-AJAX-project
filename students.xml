@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student>
+  <id>1</id>
+  <name>Zainab</name>
+  <specializaion>Security</specializaion>
+  <level>Beginner</level>
+  <department>Computer Science</department>
+  <age>21</age>
+  <gender>Female</gender>
+  <number>+968 9631 7111</number>
+  <Address>Oman</Address>
+</student>
+<student>
+  <id>2</id>
+  <name>Jacob</name>
+  <specializaion>Optimization</specializaion>
+  <level>Intermediate</level>
+  <department>Computer Science</department>
+  <age>21</age>
+  <gender>Male</gender>
+  <number>+968 9331 7111</number>
+  <Address>Oman</Address>
+</student>

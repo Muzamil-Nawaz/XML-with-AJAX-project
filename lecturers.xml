@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lecturer>
+  <lecturerId>1</lecturerId>
+  <lecturerName>Imtiaz</lecturer_name>
+  <nationality>Omani</nationality>
+  <specializaion>Information Security</specializaion>
+  <section>One</section>
+  <department>Computer Science</department>
+  <gender>Male</gender>
+</lecturer>
+<lecturer>
+  <lecturerId>2</lectureId>
+  <lecturerName>Habib</lecturerName>
+  <nationality>Omani</nationality>
+  <specializaion>Cloud Computing </specializaion>
+  <section>One</section>
+  <department>Computer Science</department>
+  <gender>Male</gender>
+</lecturer>

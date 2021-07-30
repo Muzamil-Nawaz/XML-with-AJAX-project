@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="lecturer">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="lecturerId" type="xs:integer" />
+        
+      <xs:element name="lecturerName" type="xs:string"/>
+      <xs:element name="nationality" type="xs:string"/>
+      <xs:element name="section" type="xs:string"/>
+      <xs:element name="department" type="xs:string"/>
+      <xs:element name="specialization" type="xs:string"/>
+      <xs:element name="gender" type="xs:string">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Male"/>
+                <xs:enumeration value="Female"/>
+                <xs:enumeration value="Other"/>
+            </xs:restriction>
+        </xs:simpleType>
+
+      </xs:element>
+
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
